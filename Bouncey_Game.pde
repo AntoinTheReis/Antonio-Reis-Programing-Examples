@@ -1,3 +1,7 @@
+// Code for game in Processing wih high score system that stays registered after the game is closed
+// There is a lot more code because since it isn't a Game Engine a lot of stuff that would usually be taken care of by the engine (such as the sprites and such) had to
+// be implemented directly through code
+
 int gameScreen = 0;
 float ballX, ballY;
 int ballSize = 20;
