@@ -1,3 +1,5 @@
+// Code for Gamemaker platformer with Dash mechanic
+
 var xDirection = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var jump = keyboard_check_pressed(vk_space);
 var dash = keyboard_check_pressed(ord("M"));
