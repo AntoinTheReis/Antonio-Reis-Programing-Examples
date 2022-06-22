@@ -1,0 +1,16 @@
+// Step
+
+y=clamp(y, 0, room_height-200);
+
+if !keyboard_check(vk_up) && !keyboard_check(vk_down)
+{
+	vspeed = 0;
+}
+
+// Key Down - Up
+
+vspeed = -5;
+
+// Key Down - Down
+
+vspeed = 5;
