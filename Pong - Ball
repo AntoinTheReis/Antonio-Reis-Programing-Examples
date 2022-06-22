@@ -1,0 +1,16 @@
+// Step
+
+if Ball.vspeed = 0
+{
+	y =y;
+}
+else if Ball.y > y
+{
+	y = y +5;
+}
+else if Ball.y < y
+{
+	y = y-5;
+}
+
+y=clamp(y, 0, room_height-200);
