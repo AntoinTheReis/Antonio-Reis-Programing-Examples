@@ -1,0 +1,27 @@
+// Step
+
+if y > 700 || y < -30
+{
+	vspeed = -vspeed;
+}
+
+if x = -300 || x = 1400
+{
+	room_restart();
+}
+
+// Collision with Player
+
+hspeed = -hspeed;
+vspeed = vspeed + Player.vspeed;
+
+// Collision with Opponent
+
+hspeed = -hspeed;
+vspeed = vspeed + Opponent.vspeed;
+
+// Key Down - Space
+
+if (hspeed == 0){
+	hspeed = -10;
+}
